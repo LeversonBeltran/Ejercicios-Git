@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Agregar el evento de envío del formulario
     form.addEventListener('submit', function(event) {
         event.preventDefault();
-        alert(`Nombre enviado: ${input.value}`);
         console.log(`Nombre enviado: ${input.value}`);
     });
 
