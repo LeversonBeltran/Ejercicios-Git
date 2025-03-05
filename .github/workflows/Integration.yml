@@ -30,9 +30,7 @@ name: SonarCloud analysis
 
 on:
   push:
-    branches: [ "RamaMenu" ]
-  pull_request:
-    branches: [ "RamaMenu" ]
+    branches: [ "RamaMenu, Integration, feature/*" ]
   workflow_dispatch:
 
 permissions:
