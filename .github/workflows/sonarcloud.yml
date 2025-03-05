@@ -50,7 +50,8 @@ jobs:
         # uses: SonarSource/sonarcloud-github-action@v2.2.0
         uses: SonarSource/sonarcloud-github-action@4006f663ecaf1f8093e8e4abb9227f6041f52216
         env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  # Ensure this secret is added in your GitHub repository settings under Settings > Secrets and variables > Actions > New repository secret
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  
+          # Ensure this secret is added in your GitHub repository settings under Settings > Secrets and variables > Actions > New repository secret
         with:
           # Additional arguments for the SonarScanner CLI
           args: 
