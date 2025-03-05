@@ -30,7 +30,7 @@ name: SonarCloud analysis
 
 on:
   push:
-    branches: [ "Integration" ]
+    branches: [ "feature/test-index"]
   workflow_dispatch:
 
 permissions:
