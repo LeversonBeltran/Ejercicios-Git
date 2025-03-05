@@ -27,6 +27,13 @@ document.addEventListener('DOMContentLoaded', function() {
     button.textContent = 'Enviar';
     form.appendChild(button);
 
+    // Agregar el evento de envío del formulario
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert(`Nombre enviado: ${input.value}`);
+        console.log(`Nombre enviado: ${input.value}`);
+    });
+
     // Agregar el formulario al cuerpo del documento
     document.body.appendChild(form);
 });
