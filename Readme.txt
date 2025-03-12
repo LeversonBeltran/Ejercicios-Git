@@ -29,8 +29,15 @@ Comandos básicos:
 4.  git add: para mover los cambios del directorio de trabajo al área de ensayo
 5.  git commit: para confirmar los cambios en el proyecto
 6.  git log: para explorar los cambios anteriores
-7.  git branch: para crear una nueva rama
+7.  git branch: para listar las ramas
+8.  git branch <nombre de la nueva rama>: Para crear una nueva rama
+9.  git branch -d <nombre de la rama>: Para eliminar una rama
 8.  git checkout: para cambiar entre las ramas existentes
 9.  git merge: para actualizar las ramas con la rama maestra
 10. git status para ver el estado de su directorio de trabajo.
 11. git diff <branch-1> <branch-2> (compares the specified branches)
+12. git reset: Resetea todos los cambios
+13. git reset –hard HEAD: Resetea de forma forzada todos los cambios de la rama
+
+Clonar (descargar) un repositorio remoto a Local:
+1. git clone <repository URL>
