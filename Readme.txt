@@ -40,4 +40,4 @@ Comandos básicos:
 13. git reset –hard HEAD: Resetea de forma forzada todos los cambios de la rama
 
 Clonar (descargar) un repositorio remoto a Local:
-1. git clone <repository URL>
+1. git clone <repositorio URL>
